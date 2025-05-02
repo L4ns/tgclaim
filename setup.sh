@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
 
+REPO_BASE="https://raw.githubusercontent.com/L4ns/tgclaim/main"
 
 echo "=== Membuat folder struktur project Telegram NFT Claim ==="
 mkdir -p telegram-nft-claim/{backend/api,backend/db,backend/abis,frontend/pages,contracts}
